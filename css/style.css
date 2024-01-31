@@ -1,0 +1,749 @@
+@-webkit-keyframes fall {
+	0% {
+		opacity: 0.9;
+		top: 0
+	}
+	100% {
+		opacity: 0.2;
+		top: 100%
+	}
+}
+
+@keyframes fall {
+	0% {
+		opacity: 0.9;
+		top: 0
+	}
+	100% {
+		opacity: 0.2;
+		top: 100%
+	}
+}
+
+@-webkit-keyframes blow-soft-left {
+	0% {
+		margin-left: 0
+	}
+	100% {
+		margin-left: -50%
+	}
+}
+
+@keyframes blow-soft-left {
+	0% {
+		margin-left: 0
+	}
+	100% {
+		margin-left: -50%
+	}
+}
+
+@-webkit-keyframes blow-medium-left {
+	0% {
+		margin-left: 0
+	}
+	100% {
+		margin-left: -100%
+	}
+}
+
+@keyframes blow-medium-left {
+	0% {
+		margin-left: 0
+	}
+	100% {
+		margin-left: -100%
+	}
+}
+
+@-webkit-keyframes blow-soft-right {
+	0% {
+		margin-left: 0
+	}
+	100% {
+		margin-left: 50%
+	}
+}
+
+@keyframes blow-soft-right {
+	0% {
+		margin-left: 0
+	}
+	100% {
+		margin-left: 50%
+	}
+}
+
+@-webkit-keyframes blow-medium-right {
+	0% {
+		margin-left: 0
+	}
+	100% {
+		margin-left: 100%
+	}
+}
+
+@keyframes blow-medium-right {
+	0% {
+		margin-left: 0
+	}
+	100% {
+		margin-left: 100%
+	}
+}
+
+@-webkit-keyframes sway-0 {
+	0% {
+		-webkit-transform: rotate(-5deg)
+	}
+	40% {
+		-webkit-transform: rotate(28deg)
+	}
+	100% {
+		-webkit-transform: rotate(3deg)
+	}
+}
+
+@keyframes sway-0 {
+	0% {
+		-ms-transform: rotate(-5deg);
+		transform: rotate(-5deg)
+	}
+	40% {
+		-ms-transform: rotate(28deg);
+		transform: rotate(28deg)
+	}
+	100% {
+		-ms-transform: rotate(3deg);
+		transform: rotate(3deg)
+	}
+}
+
+@-webkit-keyframes sway-1 {
+	0% {
+		-webkit-transform: rotate(10deg)
+	}
+	40% {
+		-webkit-transform: rotate(43deg)
+	}
+	100% {
+		-webkit-transform: rotate(15deg)
+	}
+}
+
+@keyframes sway-1 {
+	0% {
+		-ms-transform: rotate(10deg);
+		transform: rotate(10deg)
+	}
+	40% {
+		-ms-transform: rotate(43deg);
+		transform: rotate(43deg)
+	}
+	100% {
+		-ms-transform: rotate(15deg);
+		transform: rotate(15deg)
+	}
+}
+
+@-webkit-keyframes sway-2 {
+	0% {
+		-webkit-transform: rotate(15deg)
+	}
+	40% {
+		-webkit-transform: rotate(56deg)
+	}
+	100% {
+		-webkit-transform: rotate(22deg)
+	}
+}
+
+@keyframes sway-2 {
+	0% {
+		-ms-transform: rotate(15deg);
+		transform: rotate(15deg)
+	}
+	40% {
+		-ms-transform: rotate(56deg);
+		transform: rotate(56deg)
+	}
+	100% {
+		-ms-transform: rotate(22deg);
+		transform: rotate(22deg)
+	}
+}
+
+@-webkit-keyframes sway-3 {
+	0% {
+		-webkit-transform: rotate(25deg)
+	}
+	40% {
+		-webkit-transform: rotate(74deg)
+	}
+	100% {
+		-webkit-transform: rotate(37deg)
+	}
+}
+
+@keyframes sway-3 {
+	0% {
+		-ms-transform: rotate(25deg);
+		transform: rotate(25deg)
+	}
+	40% {
+		-ms-transform: rotate(74deg);
+		transform: rotate(74deg)
+	}
+	100% {
+		-ms-transform: rotate(37deg);
+		transform: rotate(37deg)
+	}
+}
+
+@-webkit-keyframes sway-4 {
+	0% {
+		-webkit-transform: rotate(40deg)
+	}
+	40% {
+		-webkit-transform: rotate(68deg)
+	}
+	100% {
+		-webkit-transform: rotate(25deg)
+	}
+}
+
+@keyframes sway-4 {
+	0% {
+		-ms-transform: rotate(40deg);
+		transform: rotate(40deg)
+	}
+	40% {
+		-ms-transform: rotate(68deg);
+		transform: rotate(68deg)
+	}
+	100% {
+		-ms-transform: rotate(25deg);
+		transform: rotate(25deg)
+	}
+}
+
+@-webkit-keyframes sway-5 {
+	0% {
+		-webkit-transform: rotate(50deg)
+	}
+	40% {
+		-webkit-transform: rotate(78deg)
+	}
+	100% {
+		-webkit-transform: rotate(40deg)
+	}
+}
+
+@keyframes sway-5 {
+	0% {
+		-ms-transform: rotate(50deg);
+		transform: rotate(50deg)
+	}
+	40% {
+		-ms-transform: rotate(78deg);
+		transform: rotate(78deg)
+	}
+	100% {
+		-ms-transform: rotate(40deg);
+		transform: rotate(40deg)
+	}
+}
+
+@-webkit-keyframes sway-6 {
+	0% {
+		-webkit-transform: rotate(65deg)
+	}
+	40% {
+		-webkit-transform: rotate(92deg)
+	}
+	100% {
+		-webkit-transform: rotate(58deg)
+	}
+}
+
+@keyframes sway-6 {
+	0% {
+		-ms-transform: rotate(65deg);
+		transform: rotate(65deg)
+	}
+	40% {
+		-ms-transform: rotate(92deg);
+		transform: rotate(92deg)
+	}
+	100% {
+		-ms-transform: rotate(58deg);
+		transform: rotate(58deg)
+	}
+}
+
+@-webkit-keyframes sway-7 {
+	0% {
+		-webkit-transform: rotate(72deg)
+	}
+	40% {
+		-webkit-transform: rotate(118deg)
+	}
+	100% {
+		-webkit-transform: rotate(68deg)
+	}
+}
+
+@keyframes sway-7 {
+	0% {
+		-ms-transform: rotate(72deg);
+		transform: rotate(72deg)
+	}
+	40% {
+		-ms-transform: rotate(118deg);
+		transform: rotate(118deg)
+	}
+	100% {
+		-ms-transform: rotate(68deg);
+		transform: rotate(68deg)
+	}
+}
+
+@-webkit-keyframes sway-8 {
+	0% {
+		-webkit-transform: rotate(94deg)
+	}
+	40% {
+		-webkit-transform: rotate(136deg)
+	}
+	100% {
+		-webkit-transform: rotate(82deg)
+	}
+}
+
+@keyframes sway-8 {
+	0% {
+		-ms-transform: rotate(94deg);
+		transform: rotate(94deg)
+	}
+	40% {
+		-ms-transform: rotate(136deg);
+		transform: rotate(136deg)
+	}
+	100% {
+		-ms-transform: rotate(82deg);
+		transform: rotate(82deg)
+	}
+}
+
+/* 웹 폰트 */
+@font-face {
+    font-family: 'EarlyFontDiary';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EF_YOONY';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/EF_YOONY.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.sakura {
+	/* background: -webkit-linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9)); */
+	background: rgb(154, 184, 238);
+	pointer-events: none;
+	position: absolute
+}
+
+
+/** **/
+body {
+	font-family: Arial, Helvetica, Sans-serif;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.gallery img {
+	display: block;
+	margin: 1vw;
+	width: 30vw;
+	height: 30vw;
+}
+
+.dividing img {
+	margin: 2vw;
+	/* width: 30vw;
+	height: 30vw; */
+}
+
+@media (max-width:900px) {
+	img {
+		max-width: 30%;
+	}
+}
+
+.top-right-decoration {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+}
+
+.top-left-decoration {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+}
+
+.wrap {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+	/* padding: 20px; */
+	text-align: center;
+	/* min-height:100%; */
+}
+
+.title h1 {
+	font-family: 'EarlyFontDiary', cursive;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 60px;
+	margin: 32px 0;
+	color: #674ea7;
+}
+
+.title h2 {
+	font-family: 'EarlyFontDiary', cursive;
+	font-weight: bold;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	color: #e25c67;
+	line-height: 1;
+}
+
+.title h3 {
+	font-family: 'EF_YOONY', 'EarlyFontDiary', cursive;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 24px;
+	color: #674ea7;
+	margin-top: 5px;
+}
+
+.title p {
+	color: #564861;
+	margin: 30px 0 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 16px;
+}
+
+.body-texts p {
+	font-family: 'EarlyFontDiary';
+    color: #564861;
+	margin: 30px 0 20px;
+	letter-spacing: 3px;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.subtitle {
+	font-family: 'EarlyFontDiary';
+	font-weight: bolder;
+	font-style: normal;
+	font-size: 32px;
+	color: #674ea7;
+	margin: 16px;
+	text-align: center;
+}
+
+
+/** **/
+* {
+	font-family: 'EarlyFontDiary', cursive;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* height: 100vh;
+    width: 100%; */
+	flex-direction: column;
+}
+
+.title {
+	margin-bottom: 10px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.footer {
+	font-family: 'EarlyFontDiary', cursive;
+	color: #564861;
+	text-align: center;
+	font-size: 16px;
+	margin: 24px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* 선물 */
+@media (min-width: 576px) {
+    .gift-columns {
+		/* 선물 개수(column) 설정 */
+        -webkit-column-count: 2;
+        column-count: 2;
+        -webkit-column-gap: 1.25rem;
+        column-gap: 1.25rem;
+    }
+
+    .gift-columns .gift {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.ww-gift {
+    min-height: 100px;
+}
+
+.ww-gift .gift-columns .gift {
+    border: none;
+    margin-bottom: 1rem;
+    border-radius: none;
+}
+
+.gift-columns .gift {
+    margin-bottom: 0.75rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+.gift-img {
+	width: 50%;
+	height: 300px;
+    border: 1px lightgrey;
+}
+
+.gift-btn-group {
+    width: 50% !important;
+}
+
+.gift-btn {
+    margin: auto;
+    width: 100%;
+    border-color: lightgrey;
+    background: white;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.gift-selected {
+    filter: brightness(50%);
+}
+
+.gift-message {
+    width: 100%;
+    border-color: lightgrey;
+}
+
+
+/* modal */
+.modal-open {
+    overflow: hidden;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 0.5rem;
+    pointer-events: none;
+}
+
+.modal.fade .modal-dialog {
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    transition: -webkit-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    -webkit-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+}
+
+.modal.show .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+.modal-dialog-centered {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: calc(100% - (0.5rem * 2));
+}
+
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+}
+
+.modal-backdrop.fade {
+    opacity: 0;
+}
+
+.modal-backdrop.show {
+    opacity: 0.5;
+}
+
+.modal-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #e9ecef;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+
+.modal-header .close {
+    padding: 1rem;
+    margin: -1rem -1rem -1rem auto;
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.modal-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+.modal-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-top: 1px solid #e9ecef;
+}
+
+.modal-footer > :not(:first-child) {
+    margin-left: .25rem;
+}
+
+.modal-footer > :not(:last-child) {
+    margin-right: .25rem;
+}
+
+.modal-scrollbar-measure {
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+    height: 50px;
+    overflow: scroll;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 500px;
+        margin: 1.75rem auto;
+    }
+
+    .modal-dialog-centered {
+        min-height: calc(100% - (1.75rem * 2));
+    }
+
+    .modal-sm {
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 992px) {
+    .modal-lg {
+        max-width: 800px;
+    }
+}
