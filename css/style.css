@@ -369,22 +369,25 @@ img {
 	height: auto;
 }
 
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+
 .gallery img {
-	display: block;
-	margin: 1vw;
-	width: 30vw;
-	height: 30vw;
+    display: block;
+    margin: 1vw;
+    width: 30vw;
+    height: 30vw;
 }
 
 .dividing img {
 	margin: 2vw;
-	/* width: 30vw;
-	height: 30vw; */
 }
 
 @media (max-width:900px) {
 	img {
-		max-width: 30%;
+		max-width: 100%;
 	}
 }
 
