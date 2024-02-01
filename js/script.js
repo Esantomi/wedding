@@ -56,7 +56,7 @@ $(document).ready(function () {
             $('#giftMailModal').modal('hide');
             alert(name + " 님의 메시지가 성공적으로 전송되었습니다.");
 
-            $("#reserveGiftButton").text("예약하기");
+            $("#reserveGiftButton").text("예약 완료");
             $("#sender-name").val('');
             $("#sender-message").val('');
             $("#reserveGiftButton").prop("disabled", true);

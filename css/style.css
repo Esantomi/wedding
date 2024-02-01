@@ -336,16 +336,18 @@
 }
 
 /* 웹 폰트 */
+/* 카페24 고운밤 */
 @font-face {
-    font-family: 'EarlyFontDiary';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
+    font-family: 'Cafe24Oneprettynight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
+/* 온글잎 윤우체 */
 @font-face {
-    font-family: 'EF_YOONY';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/EF_YOONY.woff2') format('woff2');
+    font-family: 'Yoonwoo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105@1.1/Yoonwoo.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -382,7 +384,7 @@ img {
 }
 
 .dividing img {
-	margin: 2vw;
+	margin: 3vw;
 }
 
 .top-right-decoration {
@@ -416,7 +418,7 @@ img {
 }
 
 .title h1 {
-	font-family: 'EarlyFontDiary', cursive;
+	font-family: 'Cafe24Oneprettynight', cursive;
 	font-weight: bold;
 	font-style: normal;
 	font-size: 60px;
@@ -425,7 +427,7 @@ img {
 }
 
 .title h2 {
-	font-family: 'EarlyFontDiary', cursive;
+	font-family: 'Cafe24Oneprettynight', cursive;
 	font-weight: bold;
 	font-style: normal;
 	margin: 0;
@@ -436,47 +438,49 @@ img {
 }
 
 .title h3 {
-	font-family: 'EF_YOONY', 'EarlyFontDiary', cursive;
+	font-family: 'Yoonwoo', cursive;
 	font-weight: 300;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	font-size: 24px;
-	color: #674ea7;
+	color: #564861;
 	margin-top: 5px;
 }
 
 .title p {
+	font-family: 'Yoonwoo', cursive;
 	color: #564861;
-	margin: 30px 0 20px;
+	margin: 1rem 0 1rem;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	font-size: 16px;
 }
 
 .body-texts p {
-	font-family: 'EarlyFontDiary';
+	font-family: 'Yoonwoo', cursive;
     color: #564861;
 	margin: 1rem 1rem 1rem;
 	letter-spacing: 3px;
-	font-size: 16px;
-	margin-top: 10px;
+	font-size: 22px;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 	text-align: center;
 }
 
 .subtitle {
-	font-family: 'EarlyFontDiary';
+	font-family: 'Cafe24Oneprettynight', cursive;
 	font-weight: bolder;
 	font-style: normal;
-	font-size: 32px;
+	font-size: 34px;
 	color: #674ea7;
-	margin: 16px;
+	margin: 1rem 1rem 1rem;
 	text-align: center;
 }
 
 
 /** **/
 * {
-	font-family: 'EarlyFontDiary', cursive;
+	font-family: 'Yoonwoo', cursive;
 }
 
 body {
@@ -500,11 +504,11 @@ body {
 }
 
 .footer {
-	font-family: 'EarlyFontDiary', cursive;
+	font-family: 'Cafe24Oneprettynight', cursive;
 	color: #564861;
 	text-align: center;
 	font-size: 16px;
-	margin: 24px;
+	margin: 1rem;
 }
 
 a {
@@ -530,12 +534,14 @@ a {
 
 .ww-gift {
     min-height: 100px;
+	/* 선물 부분 좌우 여백 */
+	margin: 0 10vh 0;
 }
 
 .ww-gift .gift-columns .gift {
-    border: none;
-    margin-bottom: 1rem;
-    border-radius: none;
+    border: 1px solid lightgrey;
+    margin: 1rem 0 1rem;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .gift-columns .gift {
@@ -547,13 +553,12 @@ a {
 }
 
 .gift-img {
-	width: 50%;
+	width: 30vh;
 	height: auto;
-    border: 1px lightgrey;
 }
 
 .gift-btn-group {
-    width: 50% !important;
+    width: 100% !important;
 }
 
 .gift-btn {
@@ -565,7 +570,7 @@ a {
 }
 
 .donation-btn {
-	margin: auto;
+	margin-bottom: 1.5rem;
     width: 100%;
     border-color: lightgrey;
 	background: #F7E600;
@@ -754,4 +759,87 @@ a {
     .modal-lg {
         max-width: 800px;
     }
+}
+
+
+/* 봉투 */
+.envelope {
+	width: 350px;
+	height: 200px;
+	background-color: #50748B;
+	margin-top: 19vh;
+	margin-bottom: 1rem;
+	position: relative;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.envelope:before {
+	content:"";
+	top:0;
+	right:0;
+	z-index:3;
+	position:absolute;
+	border-left:350px solid transparent;
+	border-bottom:200px solid rgb(154, 184, 238);
+}
+
+.envelope:after {
+	content:"";
+	top:0;
+	left:0;
+	z-index:3;
+	position:absolute;
+	border-right:350px solid transparent;
+	border-bottom:200px solid rgb(154, 184, 238);
+}
+
+.back {
+	position:absolute;
+	top:0;
+	z-index:-1;
+	transform-origin:top;
+	border-top:120px solid rgb(154, 184, 238);
+	border-left:175px solid transparent;
+	border-right:175px solid transparent;
+	transition: all 1s ease-in-out;
+	transform: rotateX(180deg);
+}
+
+.letter {
+	position:relative;
+	top:0;
+	padding:20px 1rem;
+	width:320px;
+	height:100px;
+	overflow:hidden;
+	z-index:2;
+	margin: 0 auto;
+	background-color:#F1EBE3;
+  	background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+	transition: all 1s ease-in-out;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: 0px 0px 3px #9d9d9d, inset 0px 0px 27px #fff;
+	  -moz-box-shadow: 0px 0px 3px #9d9d9d, inset 0px 0px 14px #fff;
+	  -webkit-box-shadow: 0px 0px 3px #9d9d9d, inset 0px 0px 27px #fff;
+}
+
+label {
+	color: #b3aba1;
+	margin:0 20px;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 0px #fff;
+	font-size: 13px;
+}
+
+.envelope:hover .back {
+	transform: rotateX(180deg);
+}
+
+.envelope:hover .letter {
+	top:-120px;
+	height:310px;
 }
