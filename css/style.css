@@ -377,18 +377,12 @@ img {
 .gallery img {
     display: block;
     margin: 1vw;
-    width: 30vw;
-    height: 30vw;
+    width: 35vw;
+    height: 35vw;
 }
 
 .dividing img {
 	margin: 2vw;
-}
-
-@media (max-width:900px) {
-	img {
-		max-width: 100%;
-	}
 }
 
 .top-right-decoration {
@@ -396,6 +390,7 @@ img {
 	top: 0;
 	right: 0;
 	display: block;
+	max-width: 30%;
 }
 
 .top-left-decoration {
@@ -403,6 +398,7 @@ img {
 	top: 0;
 	left: 0;
 	display: block;
+	max-width: 30%;
 }
 
 .wrap {
@@ -460,10 +456,11 @@ img {
 .body-texts p {
 	font-family: 'EarlyFontDiary';
     color: #564861;
-	margin: 30px 0 20px;
+	margin: 1rem 1rem 1rem;
 	letter-spacing: 3px;
 	font-size: 16px;
 	margin-top: 10px;
+	text-align: center;
 }
 
 .subtitle {
@@ -519,8 +516,8 @@ a {
 @media (min-width: 576px) {
     .gift-columns {
 		/* 선물 개수(column) 설정 */
-        -webkit-column-count: 2;
-        column-count: 2;
+        -webkit-column-count: 3;
+        column-count: 3;
         -webkit-column-gap: 1.25rem;
         column-gap: 1.25rem;
     }
@@ -551,7 +548,7 @@ a {
 
 .gift-img {
 	width: 50%;
-	height: 300px;
+	height: auto;
     border: 1px lightgrey;
 }
 
@@ -564,6 +561,14 @@ a {
     width: 100%;
     border-color: lightgrey;
     background: white;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.donation-btn {
+	margin: auto;
+    width: 100%;
+    border-color: lightgrey;
+	background: #F7E600;
     font-family: 'Noto Serif KR', serif;
 }
 
