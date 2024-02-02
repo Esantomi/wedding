@@ -477,6 +477,16 @@ img {
 	text-align: center;
 }
 
+.bottom_left {
+    overflow: hidden;
+    position: fixed;
+    text-align: right;
+    bottom: 0;
+    left: 0;
+    margin: 0px 15px 15px 15px;
+	cursor: pointer;
+}
+
 
 /** **/
 * {
