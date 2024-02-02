@@ -379,12 +379,12 @@ img {
 .gallery img {
     display: block;
     margin: 1vw;
-    width: 35vw;
-    height: 35vw;
+    width: 25vw;
+    height: 25vw;
 }
 
 .dividing img {
-	margin: 3vw;
+	margin: 7vh;
 }
 
 .top-right-decoration {
@@ -460,10 +460,10 @@ img {
 	font-family: 'Yoonwoo', cursive;
     color: #564861;
 	margin: 1rem 1rem 1rem;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
+	line-height: 1.8;
 	font-size: 22px;
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
+	word-break: keep-all;
 	text-align: center;
 }
 
@@ -473,7 +473,7 @@ img {
 	font-style: normal;
 	font-size: 34px;
 	color: #674ea7;
-	margin: 1rem 1rem 1rem;
+	margin: 1rem 1rem 0rem;
 	text-align: center;
 }
 
@@ -512,6 +512,7 @@ body {
 }
 
 a {
+	font-family: 'Cafe24Oneprettynight', cursive;
 	text-decoration: none;
 }
 
@@ -535,13 +536,14 @@ a {
 .ww-gift {
     min-height: 100px;
 	/* 선물 부분 좌우 여백 */
-	margin: 0 10vh 0;
+	margin: 0 10vh 1rem;
 }
 
 .ww-gift .gift-columns .gift {
     border: 1px solid lightgrey;
-    margin: 1rem 0 1rem;
-    border-radius: 5px 5px 5px 5px;
+	border-style: solid solid hidden;
+    margin: 1vh 1vh 1vh;
+    border-radius: 10px 10px 5px 5px;
 }
 
 .gift-columns .gift {
@@ -767,7 +769,9 @@ a {
 	width: 350px;
 	height: 200px;
 	background-color: #50748B;
-	margin-top: 19vh;
+	margin-top: 20vh;
+	margin-left: 10vh;
+	margin-right: 10vh;
 	margin-bottom: 1rem;
 	position: relative;
 	cursor: pointer;
