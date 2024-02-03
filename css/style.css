@@ -352,6 +352,8 @@
     font-style: normal;
 }
 
+
+/* 낙화 효과 */
 .sakura {
 	/* background: -webkit-linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));
     background: linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9)); */
@@ -467,6 +469,16 @@ img {
 	text-align: center;
 }
 
+.body-texts strong {
+	font-family: 'Yoonwoo', cursive;
+    color: #564861;
+	letter-spacing: 2px;
+	line-height: 1.8;
+	font-size: 22px;
+	word-break: keep-all;
+	text-align: center;
+}
+
 .subtitle {
 	font-family: 'Cafe24Oneprettynight', cursive;
 	font-weight: bolder;
@@ -490,16 +502,17 @@ img {
 
 /** **/
 * {
-	font-family: 'Yoonwoo', cursive;
+	font-family: Arial, Helvetica, Sans-serif;
 }
 
 body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* height: 100vh;
+	/* height: 100%;
     width: 100%; */
 	flex-direction: column;
+	overflow-x: hidden;
 }
 
 .title {
@@ -531,8 +544,8 @@ a {
 @media (min-width: 576px) {
     .gift-columns {
 		/* 선물 개수(column) 설정 */
-        -webkit-column-count: 3;
-        column-count: 3;
+        -webkit-column-count: 2;
+        column-count: 2;
         -webkit-column-gap: 1.25rem;
         column-gap: 1.25rem;
     }
@@ -540,6 +553,33 @@ a {
     .gift-columns .gift {
         width: 100%;
         text-align: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .ww-gift .gift-columns {
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (max-width: 576px) {
+    .ww-gift .gift-columns {
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (max-width: 576px) {
+    .ww-gift .gift-columns {
+        -webkit-column-count: 1;
+        column-count: 1;
+        -webkit-column-gap: 0;
+        column-gap: 0;
+    }
+
+    .ww-gift .gift-columns .gift {
+        width: 100%;
     }
 }
 
@@ -576,9 +616,14 @@ a {
 .gift-btn {
     margin: auto;
     width: 100%;
+	border-style: solid hidden solid;
     border-color: lightgrey;
     background: white;
     font-family: 'Noto Serif KR', serif;
+}
+
+.btn-primary {
+    color: #fff;
 }
 
 .donation-btn {
@@ -841,10 +886,10 @@ a {
 	  -webkit-box-shadow: 0px 0px 3px #9d9d9d, inset 0px 0px 27px #fff;
 }
 
-.letter-texts {
+.letter-texts p {
 	font-family: 'Yoonwoo', cursive;
     color: #564861;
-	margin: 0rem 1rem 0rem;
+	margin: 0rem 1rem 1rem;
 	letter-spacing: 2px;
 	font-size: 22px;
 	word-break: keep-all;
@@ -852,6 +897,7 @@ a {
 }
 
 label {
+	font-family: 'Yoonwoo', cursive;
 	color: #b3aba1;
 	margin:0 20px;
 	text-transform: uppercase;

@@ -135,9 +135,9 @@
       <div class="body-texts">
          <p>먼저 <strong>선물 버튼을 눌러 메시지</strong>를 보내 주세요.<br />
             아쉽지만 구매는 별도로 진행해 주셔야 해요.<br />
-            돋보기 버튼을 누르면 구매처에 연결됩니다.<br />
+            <strong>돋보기 버튼을 누르면 구매처에 연결</strong>됩니다.<br />
             목록에 없는 선물을 해 주셔도 기쁘겠습니다.<br />
-            선물해 주신 귀한 분을 항시 생각하겠습니다.
+            선물해 주신 귀한 분을 매번 생각하겠습니다.
          </p>
       </div>
       <div class="ww-gift">
@@ -184,6 +184,20 @@
                            <i class="fa fa-gift"></i></button>
                </div>
             </div>
+            <div class="gift flex-grow-1">
+               <!-- 구매 후에는 gift-selected class 추가 -->
+               <img alt="에어프라이어" class="img-fluid gift-img" src="assets/img/coffeemaker.jpg" />
+               <div class="btn-group gift-btn-group" role="group">
+                  <button class="btn btn-default gift-btn"
+                           onclick="window.open('https://link.coupang.com/a/boYIKX')">
+                           <i class="fa fa-search"></i></button>
+                  <button class="btn btn-default gift-btn gift-send" 
+                           data-name="에어프라이어"
+                           data-target="#giftMailModal"
+                           data-toggle="modal">
+                           <i class="fa fa-gift"></i></button>
+               </div>
+            </div>
          </div>
       </div>
 
@@ -221,13 +235,16 @@
 
       <p class="subtitle">기부하시고 싶다면 ⋯</p>
       <div class="body-texts">
-         <p>살며 그간 온정 어린 도움을 과분히도 받았습니다.<br />
-            그에 선한 것을 알면서도 바뀌지 못하는 근심을 생각하게 됩니다.<br />
-            저희는 성혼을 축하해 주시는 여러분의 마음을 하나로 모으고자 합니다.<br />
-            저희를 생각해 주시는 마음을 삼가 받들고 그 뜻을 성실히 하겠습니다.<br />
-            어디까지나 기부금인 만큼 원하는 만큼 자유롭게 보내 주세요.<br />
-            아래 <strong>봉투를 클릭하셔서 기부금 전달 버튼</strong>을 누르시면 됩니다.<br />
-            기부 내역은 추후 기부자 분들께 고지해 드릴 예정입니다.
+         <p>살며 온정 어린 도움을 과분히도 받았습니다.<br />
+            그에 선한 것이 무엇인지 알면서도<br />
+            바뀌지 못하는 근심을 생각하게 됩니다.<br />
+            저희는 축하해 주시는 여러분의 마음을 모아<br />
+            오늘을 더욱 기쁜 날로 만들고자 합니다.<br />
+            저희를 생각해 주시는 그 마음을<br />
+            삼가 받들고 그 뜻을 성실히 하겠습니다.<br />
+            아래 <strong>봉투의 기부금 전달 버튼</strong>을 누르셔서<br />
+            각자 원하는 만큼 자유롭게 보내 주세요.<br />
+            기부 내역은 추후 고지해 드리고자 합니다.
          </p>
       </div>
       <br />
@@ -274,16 +291,7 @@
       <script src='https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js'></script>
       <!-- simpleParallax.js -->
       <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
-      <script src="js/script.js"></script>
-      <script>
-         const images = document.getElementsByClassName('couple-drawing');
-         new simpleParallax(images, {
-             delay: 1.8,
-             transition: "cubic-bezier(0,0,0,1)",
-             orientation: "up",
-             scale: 1.1
-         });
-      </script>
+      <script src="js/script.js"></script>   
    </body>
 
 <!--

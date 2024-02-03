@@ -3,6 +3,13 @@
  * @author Esantomi <pilinnasa@gmail.com>
  */
 
+
+// 우측 버튼 비활성
+$(document).bind("contextmenu", function (e) {
+    return false;
+});
+
+
 // 낙화 효과
 (function ($) {
     "use strict";
@@ -10,9 +17,13 @@
 })(jQuery);
 
 
-// 우측 버튼 비활성
-$(document).bind("contextmenu", function (e) {
-    return false;
+// Parallax 효과
+const images = document.getElementsByClassName('couple-drawing');
+new simpleParallax(images, {
+    delay: 1.8,
+    transition: "cubic-bezier(0,0,0,1)",
+    orientation: "up",
+    scale: 1.1
 });
 
 
@@ -47,7 +58,7 @@ document.querySelectorAll('img').forEach(el => {
 refreshFsLightbox();
 
 
-// 선물 예약
+// 선물 예약 메시지
 $(document).ready(function () {
     $(".gift-send").click(function () {
         $("#gift-name").text($(this).data("name"));
@@ -78,6 +89,7 @@ $(document).ready(function () {
         });
     })
 })
+
 
 // console log 출력
 console.log('우리 결혼합니다.');
