@@ -16,6 +16,18 @@ $(document).bind("contextmenu", function (e) {
 });
 
 
+// 음악 토글
+var player = document.getElementById('player');
+     
+function togglePlayPause() {
+    if (player.paused) {
+        player.play();
+    } else {
+        player.pause();
+    }
+}
+
+
 // fslightbox를 활용한 갤러리 기능 (참고: "https://codepen.io/inpaSkyrim/pen/yLxBYNL")
 function wrap(el) {
     const wrappingElement = document.createElement('a');
