@@ -425,7 +425,7 @@ img {
 	font-style: normal;
 	font-size: 60px;
 	margin: 32px 0;
-	color: #674ea7;
+	color: rgb(96, 129, 224);
 }
 
 .title h2 {
@@ -484,7 +484,7 @@ img {
 	font-weight: bolder;
 	font-style: normal;
 	font-size: 34px;
-	color: #674ea7;
+	color: rgb(96, 129, 224);
 	margin: 1rem 1rem 0rem;
 	text-align: center;
 }
