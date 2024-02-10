@@ -556,35 +556,8 @@ a {
     }
 }
 
-@media (max-width: 992px) {
-    .ww-gift .gift-columns {
-        -webkit-column-count: 2;
-        column-count: 2;
-    }
-}
-
-@media (max-width: 576px) {
-    .ww-gift .gift-columns {
-        -webkit-column-count: 2;
-        column-count: 2;
-    }
-}
-
-@media (max-width: 576px) {
-    .ww-gift .gift-columns {
-        -webkit-column-count: 1;
-        column-count: 1;
-        -webkit-column-gap: 0;
-        column-gap: 0;
-    }
-
-    .ww-gift .gift-columns .gift {
-        width: 100%;
-    }
-}
-
 .ww-gift {
-    min-height: 100px;
+    min-height: auto;
 	/* 선물 부분 좌우 여백 */
 	margin: 0 10vh 1rem;
 }
@@ -592,12 +565,12 @@ a {
 .ww-gift .gift-columns .gift {
     border: 1px solid lightgrey;
 	border-style: solid solid hidden;
-    margin: 1vh 1vh 1vh;
+    margin: 3vh 2vh 3vh;
     border-radius: 1px 1px 5px 5px;
 }
 
 .gift-columns .gift {
-    margin-bottom: 0.75rem;
+    margin-bottom: 1rem;
 }
 
 .img-fluid {
