@@ -3,7 +3,7 @@
 본 Repository는 🌊💕🌌 커플의 결혼 소식을 알리기 위한 모바일 청첩장입니다.
 
 <div align="center">
-  <img src="https://github.com/Esantomi/wedding/blob/main/assets/img/wedding.png" height="500"/>
+  <img src="https://github.com/Esantomi/wedding/blob/main/assets/img/couple.png" width="500"/>
 </div>
 
 ## 📚 Libraries
