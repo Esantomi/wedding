@@ -6,7 +6,10 @@
   <img src="https://github.com/Esantomi/wedding/blob/main/assets/img/couple.png" width="500"/>
 </div>
 
-## 📚 Libraries
+## Digression
+축가를 뭘로 할지 고민했을 때, 가장 먼저 떠오른 곡은 타케우치 마리야(竹内まりや)의 [本気でオンリーユー (Let's Get Married)](https://youtu.be/GQ42W3gUNyM?si=VJpfFrdt6pfwhgiJ)였다. 너무나도 자연스러운 연상 작용이었던 것 같다. 아내는 처음에는 상관없다 하였으나 내가 The Beatles의 In My Life를 언급한 이후로는 교체를 요청하였고, 최종적으로는 In My Life로 축가가 결정되었다. 어린 시절부터 The Beatles의 광팬이었던 나로서도 흠잡을 데 없는 선곡이기도 하고.
+
+## Libraries
 <details>
    <summary>사용 라이브러리 목록</summary>
    <ul>
