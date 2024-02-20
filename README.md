@@ -15,7 +15,7 @@
    <ul>
      <li>jQuery-Sakura : 낙화 효과</li>
      <li>simpleParallx.js : 간단한 Prallax 효과</li>
-     <li>fslightbox.js : 갤러리 구현</li>
+     <li>Swiper: 슬라이딩 갤러리 구현</li>
      <li>Bootstrap.js, Popper.js : 모달 창 구현</li>
      <li>EmailJS : 메일 발송</li>
    </ul>

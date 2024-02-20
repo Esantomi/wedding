@@ -39,23 +39,23 @@ function togglePlayPause() {
 }
 
 
-// fslightbox를 활용한 갤러리 기능 (참고: "https://codepen.io/inpaSkyrim/pen/yLxBYNL")
-function wrap(el) {
-    const wrappingElement = document.createElement('a');
-    wrappingElement.href = el.src;
-    wrappingElement.setAttribute('data-fslightbox', 'gallery');
+// // fslightbox를 활용한 갤러리 기능 (참고: "https://codepen.io/inpaSkyrim/pen/yLxBYNL")
+// function wrap(el) {
+//     const wrappingElement = document.createElement('a');
+//     wrappingElement.href = el.src;
+//     wrappingElement.setAttribute('data-fslightbox', 'gallery');
     
-    // class="gallery" 내부 elements만 가져오기
-    if (el.closest('.gallery')) {
-        el.parentElement.insertBefore(wrappingElement, el);
-        wrappingElement.appendChild(el);
-    }
-}
-document.querySelectorAll('img').forEach(el => {
-    wrap(el);
-})
-// To incorporate new galleries or updates of existing ones (through adding or modifying <a> elements)
-refreshFsLightbox();
+//     // class="gallery" 내부 elements만 가져오기
+//     if (el.closest('.gallery')) {
+//         el.parentElement.insertBefore(wrappingElement, el);
+//         wrappingElement.appendChild(el);
+//     }
+// }
+// document.querySelectorAll('img').forEach(el => {
+//     wrap(el);
+// })
+// // To incorporate new galleries or updates of existing ones (through adding or modifying <a> elements)
+// refreshFsLightbox();
 
 
 // 선물 예약 메시지

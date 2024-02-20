@@ -3,7 +3,7 @@
    <head>
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
       <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
       <meta name="description" content="해인, 천산의 결혼식 모바일 청첩장입니다.">
       <meta name="author" content="Esantomi">
       <meta name="email" content="pilinnasa@gmail.com">
@@ -16,6 +16,7 @@
       <title>해인❤️천산, 결혼합니다.</title>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
       <link rel="stylesheet" href="css/style.css">
 
       <!-- emailjs 로드 및 sendMail() 설정 -->
@@ -76,37 +77,24 @@
          <img src="assets/img/kokam.png" style="width:50px" alt="구분선">
       </div>
 
-      <p class="subtitle">사진첩</p>
-      <div class="body-texts">
-         <p>스냅 사진으로 추후 교체 예정입니다.^^</p>
-      </div>
-      <div class="gallery">
-         <div style="display: flex; flex-wrap: wrap; justify-content: center; padding: 1vh;">
-            <img
-                src="assets/img/1.jpg"
-                alt="태전동 인근에 벚꽃놀이 간 사진"
-                />
-            <img
-                src="assets/img/2.jpg"
-                alt="대구 이월드에 놀러 간 사진"
-                />
-            <img
-                src="assets/img/3.jpg"
-                alt="롯데월드에 놀러 간 사진1"
-                />
-            <img
-                src="assets/img/4.jpg"
-                alt="롯데월드에 놀러 간 사진2"
-                />
-            <img
-                src="assets/img/5.jpg"
-                alt="홍대 모 사진관에서 찍은 사진"
-                />
-            <img
-                src="assets/img/6.jpg"
-                alt="운중동 모 카페에서 데이트하며 찍은 사진"
-                />
+      <p class="subtitle">사진첩</p><br />
+      <div class="swiper-container">
+         <div class="swiper-wrapper">
+             <div class="swiper-slide"><img src="assets/img/1.jpg" alt="Image 1"></div>
+             <div class="swiper-slide"><img src="assets/img/2.jpg" alt="Image 2"></div>
+             <div class="swiper-slide"><img src="assets/img/3.jpg" alt="Image 3"></div>
+             <div class="swiper-slide"><img src="assets/img/4.jpg" alt="Image 4"></div>
+             <div class="swiper-slide"><img src="assets/img/5.jpg" alt="Image 5"></div>
+             <div class="swiper-slide"><img src="assets/img/6.jpg" alt="Image 6"></div>
+             <div class="swiper-slide"><img src="assets/img/7.jpg" alt="Image 7"></div>
+             <div class="swiper-slide"><img src="assets/img/8.jpg" alt="Image 8"></div>
+             <div class="swiper-slide"><img src="assets/img/9.jpg" alt="Image 9"></div>
+             <div class="swiper-slide"><img src="assets/img/10.jpg" alt="Image 10"></div>
          </div>
+         <!-- Swiper 컴포넌트 -->
+         <div class="swiper-pagination"></div>
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
       </div>
 
       <div class="dividing">
@@ -258,9 +246,6 @@
          </div>
       </div>
 
-
-
-
       <div class="dividing">
          <img src="assets/img/kokam.png" style="width:50px" alt="구분선">
       </div>
@@ -315,8 +300,6 @@
          </div>
       </div>
 
-      <!-- fslightbox.js -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.4.1/index.min.js"></script>
       <!-- Popper.js and Bootstrap.js -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -324,6 +307,22 @@
       <script src='https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js'></script>
       <!-- simpleParallax.js -->
       <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+      <!-- Swiper -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script>
+         var swiper = new Swiper('.swiper-container', {
+             slidesPerView: 1,
+             spaceBetween: 10,
+             navigation: {
+                 nextEl: '.swiper-button-next',
+                 prevEl: '.swiper-button-prev',
+             },
+             pagination: {
+                 el: '.swiper-pagination',
+                 clickable: true,
+             },
+         });
+      </script>
       <script src="js/script.js"></script>   
    </body>
 
