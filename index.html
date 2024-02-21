@@ -203,15 +203,13 @@
             </div>
             <div class="gift flex-grow-1">
                <!-- 구매 후에는 gift-selected class 추가 -->
-               <img alt="손목시계" class="img-fluid gift-img" src="assets/img/watch.jpg" />
+               <img alt="손목시계" class="img-fluid gift-img gift-selected" src="assets/img/watch.jpg" />
                <div class="btn-group gift-btn-group" role="group">
                   <button class="btn btn-default gift-btn"
                            onclick="window.open('http://s.godo.kr/25hn4')">
                            <i class="fa fa-search"></i></button>
                   <button class="btn btn-default gift-btn gift-send" 
-                           data-name="손목시계"
-                           data-target="#giftMailModal"
-                           data-toggle="modal">
+                           onclick="alert('다른 분께서 먼저 선택하신 선물입니다.');">
                            <i class="fa fa-gift"></i></button>
                </div>
             </div>
