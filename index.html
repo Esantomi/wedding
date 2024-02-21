@@ -173,15 +173,13 @@
          <div class="gift-columns d-flex">
             <div class="gift flex-grow-1">
                <!-- 구매 후에는 gift-selected class 추가 -->
-               <img alt="커피메이커" class="img-fluid gift-img" src="assets/img/coffeemaker.jpg" />
+               <img alt="커피메이커" class="img-fluid gift-img gift-selected" src="assets/img/coffeemaker.jpg" />
                <div class="btn-group gift-btn-group" role="group">
                   <button class="btn btn-default gift-btn"
                            onclick="window.open('https://link.coupang.com/a/bp2ehG')">
                            <i class="fa fa-search"></i></button>
                   <button class="btn btn-default gift-btn gift-send" 
-                           data-name="커피메이커"
-                           data-target="#giftMailModal"
-                           data-toggle="modal">
+                           onclick="alert('다른 분께서 먼저 선택하신 선물입니다.');">
                            <i class="fa fa-gift"></i></button>
                </div>
             </div>
