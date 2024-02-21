@@ -374,10 +374,9 @@ img {
 }
 
 /* Swiper */
-/* 모바일 환경에서 스타일 조절 */
 @media (max-width: 767px) {
 	.swiper-slide {
-	  height: auto; /* 또는 다른 값으로 조절 */
+	  height: auto;
 	}
 }
 
@@ -390,7 +389,7 @@ img {
 .swiper-slide {
 	height: 90vh;
 }
-  
+
 .swiper-slide img {
 	width: 100%;
 	height: 100%;
